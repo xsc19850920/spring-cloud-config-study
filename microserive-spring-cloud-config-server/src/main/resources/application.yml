@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: microserive-spring-cloud-config-server
+  cloud:
+    config:
+#      uri: http://localhost:8888 默认就是8888
+      server:
+        git:
+          uri: https://gitee.com/xsc19850920/spring-cloud-config-samples.git
+#          username: xsc19850920
+#          password: xiachun100
+
