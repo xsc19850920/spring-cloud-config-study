@@ -8,7 +8,6 @@ spring:
 #      uri: http://localhost:8888 默认就是8888
       server:
         git:
-          uri: https://gitee.com/xsc19850920/spring-cloud-config-samples.git
-#          username: xsc19850920
-#          password: xiachun100
+          uri: https://gitee.com/xsc19850920/spring-cloud-config-samples
+          basedir: D:\git\spring-cloud-config-samples  #spring.cloud.config.server.git.uri 本地路径 (公司有代理 http.proxy ,htts.proxy)
 
