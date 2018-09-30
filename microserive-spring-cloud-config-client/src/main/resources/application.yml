@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888 
+      profile: dev
+      #label: master # 当config server 后端存储用的是git的时候 默认就是master
+  application:
+    name: foobar

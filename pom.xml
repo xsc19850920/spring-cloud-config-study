@@ -43,5 +43,6 @@
 
 	<modules>
 		<module>microserive-spring-cloud-config-server</module>
+		<module>microserive-spring-cloud-config-client</module>
 	</modules>
 </project>
